@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Ambient Ripple Ring -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,1 56,0a28,28 0 1,1 -56,0"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#507EE0D2" />
+                <item android:offset="0.5" android:color="#20C4B5FD" />
+                <item android:offset="1.0" android:color="#107EE0D2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Ambient Ripple Ring -->
+    <path
+        android:pathData="M54,54m-21,0a21,21 0 1,1 42,0a21,21 0 1,1 -42,0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="33"
+                android:startY="33"
+                android:endX="75"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#907EE0D2" />
+                <item android:offset="0.6" android:color="#40C4B5FD" />
+                <item android:offset="1.0" android:color="#207EE0D2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Liquid Glass Droplet Base -->
+    <path
+        android:pathData="M54,34 C54,34 68,52 68,61 C68,68.7 61.7,75 54,75 C46.3,75 40,68.7 40,61 C40,52 54,34 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="34"
+                android:endX="68"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E09BFDEE" />
+                <item android:offset="0.4" android:color="#C07EE0D2" />
+                <item android:offset="0.8" android:color="#B0C4B5FD" />
+                <item android:offset="1.0" android:color="#904A3D7C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Liquid Glass Droplet Specular Rim / Highlight -->
+    <path
+        android:pathData="M54,36 C54,36 66,53 66,61 C66,67.6 60.6,73 54,73 C47.4,73 42,67.6 42,61 C42,53 54,36 54,36 Z"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="42"
+                android:startY="36"
+                android:endX="66"
+                android:endY="73"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.5" android:color="#40FFFFFF" />
+                <item android:offset="1.0" android:color="#207EE0D2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Specular Light Glare Reflection -->
+    <path
+        android:pathData="M50,46 C52,43 54,40 54,40 C54,40 47,53 47,60 C47,63.5 48.5,66 50,67.5 C46.5,65.5 45,62.5 45,59 C45,54 50,46 50,46 Z"
+        android:fillColor="#60FFFFFF" />
+
+    <!-- Center Luminous Zen Core -->
+    <path
+        android:pathData="M54,61m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#FFFFFFFF" />
+
+</vector>
